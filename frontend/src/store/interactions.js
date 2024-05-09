@@ -1,4 +1,4 @@
-import { ethers } from "ethers";
+import { providers }  from "ethers";
 import MEDICAL_ABI from "../abis/MedicalRecords.json";
 export const loadProvider = (dispatch) => {
   const connection = new ethers.providers.Web3Provider(window.ethereum);

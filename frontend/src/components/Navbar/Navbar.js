@@ -58,7 +58,7 @@ const Navbar = () => {
           </p>
         )}
         {account ? (
-          <a className="nav__myAccount" href="#">
+          <a className="nav__myAccount"  href="#">
             {account.slice(0, 5) + "...." + account.slice(38, 42)}
             <Blockies
               seed={account}

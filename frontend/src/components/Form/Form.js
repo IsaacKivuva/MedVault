@@ -39,7 +39,7 @@ const Form = () => {
 
   return (
     <div className="login-container">
-      <h1></h1>
+      <h1>MedVault</h1>
     {account?( <form onSubmit={submitHandler}>
         <h1>Patient Details</h1>
 
